@@ -5,16 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
+    <style>
+        .colored_words {
+            color: blueviolet;
+            text-align: center;
+        }
+        .head-foot {
+            height: 50px;
+            color: white;
+            background-color: blueviolet;
+            height: 100px;
+        }
+        .video  {
+            text-align: center;
+        }
+    </style>
+    </head>
 
 <body>
-    <div style="display: flex; justify-content: center;">
+    <div class = "head-foot" style="display: flex; justify-content: center;align-items: center;">
         <div style="align-self: center;"><img src="logo.png" alt="" height="30px"></div>
-        <div>
+        <div >
             <h1>CMPICA</h1>
         </div>
     </div>
-    <div style="justify-content: center;display: flex;">
+    <div style="justify-content: center;display: flex;" >
         <a href="#">Home |</a>
         <a href="#">About Us |</a>
         <a href="#">Program |</a>
@@ -26,10 +41,10 @@
         <img src="cmpica1.jpg" width="100%">
     </div>
     <div>
-        <table width="100%" border="1" style="align-items: center;text-align: center;">
-            <tr>
+    <table width="100%" border="1" style="align-items: center;text-align: center;">
+            <tr style="background-color: aqua;">
                 <td>
-                    <h2>Welcome to CMPICA</h2>
+                    <h2 class="colored_words">Welcome to CMPICA</h2>
                     <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
                         tenetur beatae eligendi reiciendis doloremque? Commodi enim a esse odio aut possimus velit
                         tempore molestiae eligendi facere dolore assumenda explicabo ad, accusamus, pariatur maiores ut
@@ -42,7 +57,7 @@
                     </p>
                 </td>
                 <td width="20%">
-                    <h3>User Login</h3>
+                    <h3 class="colored_words">User Login</h3>
                     <table width="100%">
                         <tr>
                             <td style="text-align: left;padding-left: 10px;">
@@ -71,15 +86,16 @@
             </tr>
         </table>
         <table width="100%" border="1">
-            <tr>
+            <tr class = "video">
+                <td style="background-color: beige;">
+                        <video src="" controls ></video>
+                </td>
                 <td>
-                    <div style="display: flex;justify-content: space-around;">
-                        <video src="" controls></video>
                         <video src="" controls></video>
                 </td>
             </tr>
             <tr>
-                <td style="text-align: center;" height="70px">
+                <td class="head-foot" style="text-align: center;" height="70px" colspan="2">
                     <b>copyright@CMPICA 2025</b>
                 </td>
             </tr>
